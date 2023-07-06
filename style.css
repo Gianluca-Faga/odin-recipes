@@ -19,4 +19,18 @@ body {
 ul {
     list-style-type: circled-alpha;
 }
-
+.header-title-nav-wrapper{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+#site-title {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
