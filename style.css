@@ -4,20 +4,17 @@
 }
 
 body {
-    text-align: center  ;
     background-color: antiquewhite;
+}
+
+.website-content-description{
+    text-align: center;
 }
 p {
     font-size: 20px;
 }
 .recipes {
     background-color: #df901936;
-}
-
-@counter-style circled-alpha {
-    system: fixed;
-    symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
-    suffix: " ";
 }
 
 ul {
@@ -33,13 +30,13 @@ ul {
 #site-title {
     display: block;
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: none;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;     
 }
 
 .header-title-nav-wrapper a:hover {
@@ -61,3 +58,33 @@ a {
 .recipes-box-row {
     margin: 10px;
 }
+@media screen{
+    .recipee-container{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .recipee-container-recipee-image img{
+        margin: 0 auto;
+        width: 600px;
+        height: 450px;
+    }
+    .recipee-container-recipee-ingredients{
+        margin: 0 auto;    
+        width: 50%;
+    }
+    .recipee-container-recipee-steps{
+        margin: 0 auto;     
+        width: 50%;
+    }
+    #recipee-ingredients-list{
+        text-align: left;
+        list-style-position: inside ;
+    }
+    #recipee-steps-list{
+        text-align: left;
+        list-style-position: inside ;
+    }
+}
+
