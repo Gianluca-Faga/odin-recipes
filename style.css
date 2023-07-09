@@ -1,13 +1,17 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poiret One', cursive;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: yellowgreen;
+    text-align: center  ;
+    background-color: antiquewhite;
 }
-
+p {
+    font-size: 20px;
+}
 .recipes {
-    background-color: rgb(223, 144, 25);
+    background-color: #df901936;
 }
 
 @counter-style circled-alpha {
@@ -19,18 +23,41 @@ body {
 ul {
     list-style-type: circled-alpha;
 }
-.header-title-nav-wrapper{
+
+.header-title-nav-wrapper {
     width: 600px;
     margin: 0 auto;
     text-align: center;
 }
+
 #site-title {
     display: block;
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.header-title-nav-wrapper a:hover {
+    text-decoration: underline  ;
+}
+
+.recipes-box {
+    text-align: center;
+}
+
+.recipes-box-item {
+    width: 300px;
+    height: 225px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+    margin: auto 5px;
+    
+}
+
+.recipes-box-row {
+    margin: 10px;
 }
